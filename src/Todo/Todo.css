@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+
+    background: #000;
+    width: 90%;
+    height: 90vh;
+    color: aliceblue;
+    margin: auto;
+}
+.heading{
+    color: #117a4e;
+    text-align: center;
+    padding-top: 6%;
+    font-style: oblique;
+    font-size:250%;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+}
+.container1 input{
+    width: 70%;
+    margin-left: 2%;
+    padding: 2%;
+    font-size: x-large;
+    border-radius: 2%;
+}
+
+.container1 button{
+    font-size:250%;
+    margin-left: 2%;
+    padding: 0.6%;
+}
+.container1 button:hover{  
+  background: #117a4e;
+  color: aliceblue;
+}
+
+.add_div ul {
+    list-style-type: none; 
+    padding:2% 4%; 
+    margin: 0; 
+  }
+
+  .add_div ul button{
+    background: #117a4e;
+    color: #ddd;
+    text-decoration: none;
+    font-size: large;
+    padding: 1%;
+  }
+  .add_div ul button:hover{
+    background: white;
+    color: black;
+    font-weight: 300;
+  }
+  
+  .add_div li {
+    font-size: x-large;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px; 
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  .add_div li span {
+    flex-grow: 1; 
+    cursor: pointer; 
+  }
+  
+  .add_div li button {
+    margin-left: 5px; 
+  }
+  
+  .add_div li input {
+    flex-grow: 1;
+    margin-right: 10px; 
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .container1 input{
+      width: 70%;
+      margin-left:1%;
+      padding: .1%;
+      font-size: large;
+      border-radius: 2%;
+  }
+  
+  }
+   
